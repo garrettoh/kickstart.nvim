@@ -105,7 +105,7 @@ vim.api.nvim_create_autocmd('VimEnter', {
     -- Open terminal at bottom (split)
     vim.cmd 'split | terminal'
     vim.cmd 'resize 3' -- Short terminal height
-    vim.cmd 'startinsert' -- Auto-enter insert mode in terminal
+    vim.cmd 'wincmd k' -- Return to main window
   end,
 })
 -- RESIZING SHIT END
