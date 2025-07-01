@@ -101,11 +101,6 @@ vim.api.nvim_create_autocmd('VimEnter', {
     vim.cmd 'wincmd h' -- Move to Neo-tree window
     vim.cmd 'vertical resize 15' -- Narrow width
     vim.cmd 'wincmd l' -- Return to main window
-
-    -- Open terminal at bottom (split)
-    vim.cmd 'split | terminal'
-    vim.cmd 'resize 3' -- Short terminal height
-    vim.cmd 'wincmd k' -- Return to main window
   end,
 })
 -- RESIZING SHIT END
